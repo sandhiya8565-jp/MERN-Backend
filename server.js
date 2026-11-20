@@ -20,4 +20,4 @@ app.listen(process.env.PORT, () => {
 })
 
 const userRouter = require("./Routers/UserRouter");
-app.use("/api?users", userRouter);
+app.use("/api/users", userRouter);
