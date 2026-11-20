@@ -4,6 +4,8 @@ const UserSchema = new Mongoose.Schema({
      name:{type: String, required: true},
      email:{type: String, required: true},
      password:{type: String, required: true},
+     confirm:{type: String, required: true},
+     
 
 });
 
